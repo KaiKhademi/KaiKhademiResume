@@ -1,4 +1,5 @@
 import {projects} from "@/data/projects";
+import { getAssetPath } from "@/lib/getAssetPath";
 
 export const Projects = (): React.ReactNode => {
     return (
@@ -23,7 +24,7 @@ export const Projects = (): React.ReactNode => {
                             rel={project.url === "#" ? undefined : "noreferrer"}
                         >
                             <img
-                                src={project.image}
+                                src={getAssetPath(project.image)}
                                 alt={`${project.title} project preview`}
                                 className="portfolio-image"
                             />

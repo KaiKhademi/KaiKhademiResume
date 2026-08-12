@@ -1,10 +1,12 @@
+import {getAssetPath} from "@/lib/getAssetPath";
+
 export const About = (): React.ReactNode => {
     return (
         <section className="about-section" id="about">
             <div className="about-container reveal">
                 <div className="about-image">
                     <img
-                        src="/images/templatemo-amber-folio-09.jpg"
+                        src={getAssetPath("/images/templatemo-amber-folio-09.jpg")}
                         alt="Kai Khademi"
                     />
                 </div>
