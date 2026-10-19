@@ -12,7 +12,7 @@ export const Hero = (): React.ReactNode => {
             <div className="hero-content reveal">
                 <p className="hero-kicker">Full-Stack Software Developer</p>
 
-                <h1 className="hero-title">Hi, I&apos;m Kai Khademi</h1>
+                <h1 className="hero-title">Kai Khademi</h1>
 
                 <p className="hero-subtitle">
                     Building responsive and practical web applications
@@ -24,9 +24,8 @@ export const Hero = (): React.ReactNode => {
                     </a>
 
                     <a
-                        href="/resume.pdf"
-                        target="_blank"
-                        rel="noreferrer"
+                        href="./MyResume.pdf"
+                        download="Kai_Khademi_Resume.pdf"
                         className="cta-button cta-button-secondary"
                     >
                         View Resume

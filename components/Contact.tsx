@@ -16,7 +16,7 @@ export const Contact = (): React.ReactNode => {
                 <div className="contact-links">
                     <a
                         className="contact-card"
-                        href="mailto:your-email@example.com"
+                        href="mailto:kiamehrkhademi1381@gmail.com"
                     >
                         <span className="contact-card-label">Email</span>
                         <span className="contact-card-value">
@@ -26,7 +26,7 @@ export const Contact = (): React.ReactNode => {
 
                     <a
                         className="contact-card"
-                        href="https://www.linkedin.com/in/your-profile"
+                        href="https://www.linkedin.com/in/kiamehr-khademi-a31940222/"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -36,7 +36,7 @@ export const Contact = (): React.ReactNode => {
 
                     <a
                         className="contact-card"
-                        href="https://github.com/your-username"
+                        href="https://github.com/KaiKhademi"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -48,16 +48,15 @@ export const Contact = (): React.ReactNode => {
                 <div className="contact-actions">
                     <a
                         className="cta-button"
-                        href="mailto:your-email@example.com"
+                        href="mailto:kiamehrkhademi1381@gmail.com"
                     >
                         Send Email
                     </a>
 
                     <a
-                        className="contact-secondary-button"
-                        href="/resume.pdf"
-                        target="_blank"
-                        rel="noreferrer"
+                        href="./MyResume.pdf"
+                        download="Kai_Khademi_Resume.pdf"
+                        className="cta-button cta-button-secondary"
                     >
                         View Resume
                     </a>
